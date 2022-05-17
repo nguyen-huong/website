@@ -9,17 +9,17 @@
     - thing: Axios
     - thing: YouTube API
 
-- name: Halcyon Theme
-  url: https://bchiang7.github.io/halcyon-site/
-  code: https://github.com/bchiang7/halcyon-site
-  description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
-  used:
-    - thing: Gatsby
-    - thing: Sublime Text
-    - thing: Atom
-    - thing: VS Code
-    - thing: iTerm2
-    - thing: Hyper
+# - name: Halcyon Theme
+#   url: https://bchiang7.github.io/halcyon-site/
+#   code: https://github.com/bchiang7/halcyon-site
+#   description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
+#   used:
+#     - thing: Gatsby
+#     - thing: Sublime Text
+#     - thing: Atom
+#     - thing: VS Code
+#     - thing: iTerm2
+#     - thing: Hyper
 
 - name: Lonely Planet DBMS
   url: https://github.com/bchiang7/CS3200-Project
@@ -33,15 +33,15 @@
     - thing: CSS
     - thing: JavaScript
 
-- name: myNEU Redesign
-  url: https://bchiang7.github.io/Redesign-myNEU/
-  code: https://github.com/bchiang7/Redesign-myNEU
-  description: myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.
-  used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
+# - name: myNEU Redesign
+#   url: https://bchiang7.github.io/Redesign-myNEU/
+#   code: https://github.com/bchiang7/Redesign-myNEU
+#   description: myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.
+#   used:
+#     - thing: Jekyll
+#     - thing: HTML
+#     - thing: SCSS
+#     - thing: JavaScript
 
 - name: Crowd DJ
   url: https://github.com/crowddj/crowddj-react
@@ -132,25 +132,25 @@
     - thing: HTML
     - thing: SCSS
 
-- name: Personal Website V1
-  url: https://bchiang7.github.io/v1
-  code: https://github.com/bchiang7/website_2015/
-  description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: Bootstrap
-    - thing: JavaScript
-    - thing: jQuery
+# - name: Personal Website V1
+#   url: https://bchiang7.github.io/v1
+#   code: https://github.com/bchiang7/website_2015/
+#   description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
+#   used:
+#     - thing: HTML
+#     - thing: CSS
+#     - thing: Bootstrap
+#     - thing: JavaScript
+#     - thing: jQuery
 
-- name: One Card For All
-  url: http://onecardforall.org
-  description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
-  used:
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: jQuery
+# - name: One Card For All
+#   url: http://onecardforall.org
+#   description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
+#   used:
+#     - thing: HTML
+#     - thing: SCSS
+#     - thing: JavaScript
+#     - thing: jQuery
 
 - name: JetBlue HumanKinda
   url: https://us.mullenlowe.com/work/humankinda/
