@@ -1,13 +1,11 @@
-- name: Surf Videos
-  url: https://github.com/bchiang7/Surf-Videos
-  code: https://github.com/bchiang7/Surf-Videos
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+- name: MD5 Password Cracker
+  url: https://github.com/nguyen-huong/md5-password-cracker
+  code: https://github.com/nguyen-huong/md5-password-cracker
+  description: Intake a list of hashed passwords and generate guesses until return each cracked password and runtime.
   used:
-    - thing: JavaScript
-    - thing: React
-    - thing: React Router
-    - thing: Axios
-    - thing: YouTube API
+    - thing: HashLib
+    - thing: SYS
+    - thing: Random
 
 # - name: Halcyon Theme
 #   url: https://bchiang7.github.io/halcyon-site/
@@ -21,17 +19,14 @@
 #     - thing: iTerm2
 #     - thing: Hyper
 
-- name: Lonely Planet DBMS
-  url: https://github.com/bchiang7/CS3200-Project
-  code: https://github.com/bchiang7/CS3200-Project
-  description: Final project for my Database Design course at Northeastern. A simple web application that allows users to filter through a database containing Lonely Planet's <a class="underline-link" href="https://www.amazon.com/Lonely-Planets-Ultimate-Travel-Places/dp/1760342777" target="_blank">Top 500 Travel Destinations</a>. Users are able to add themselves as visitors as well as leave reviews of the destinations.
+- name: Port Scanner
+  url: https://github.com/nguyen-huong/port_scanner
+  code: https://github.com/nguyen-huong/port_scanner
+  description: Ask user for IP address input or remote host to search for the IP address & scan up to x number of ports. Return each port, whether it is closed or open, and time stamp.
   used:
-    - thing: Python
-    - thing: MySQL
-    - thing: Flask
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
+    - thing: Socket API
+    - thing: Multi-threading
+    - thing: Queue
 
 # - name: myNEU Redesign
 #   url: https://bchiang7.github.io/Redesign-myNEU/
@@ -43,31 +38,26 @@
 #     - thing: SCSS
 #     - thing: JavaScript
 
-- name: Crowd DJ
-  url: https://github.com/crowddj/crowddj-react
-  code: https://github.com/crowddj/crowddj-react
-  description:
-    A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
-    <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
-  used:
-    - thing: React
-    - thing: Sass
-    - thing: Firebase
-    - thing: Spotify API
+# - name: Crowd DJ
+#   url: https://github.com/crowddj/crowddj-react
+#   code: https://github.com/crowddj/crowddj-react
+#   description:
+#     A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
+#     <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
+#   used:
+#     - thing: React
+#     - thing: Sass
+#     - thing: Firebase
+#     - thing: Spotify API
 
-- name: Weather Widget
-  url: http://quiet-dusk-89245.herokuapp.com/
-  code: https://github.com/bchiang7/DemoWebApp
-  description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
-  img: weather
+- name: National Parks Dictionary
+  url: https://github.com/nguyen-huong/national-parks
+  code: https://github.com/nguyen-huong/national-parks
+  description: A dictionary from CSV file of national parks and return a menu, get user’s choice, then either print all parks, parks in a state, find largest park, or search for a park.
+#   img: weather
   used:
-    - thing: JavaScript
-    - thing: CSS
-    - thing: Node.js
-    - thing: Express
-    - thing: Heroku
-    - thing: OpenWeatherMap API
-    - thing: Google Maps API
+    - thing: Python dictionary
+    - thing: CSV
 
 # - name: ScreenTime 2.0
 #   url: https://play.google.com/store/apps/details?id=com.starry.management
@@ -80,83 +70,83 @@
 #   - thing: Marionette
 #   - thing: Cordova
 
-- name: Personal Website V2
-  url: https://bchiang7.github.io/v2
-  code: https://github.com/bchiang7/v2
-  description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
-  used:
-    - thing: Jekyll
-    - thing: Handlebars
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: Github Pages
+# - name: Personal Website V2
+#   url: https://bchiang7.github.io/v2
+#   code: https://github.com/bchiang7/v2
+#   description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
+#   used:
+#     - thing: Jekyll
+#     - thing: Handlebars
+#     - thing: SCSS
+#     - thing: JavaScript
+#     - thing: Github Pages
 
-- name: React Resume
-  url: https://bchiang7.github.io/react-profile/
-  code: https://github.com/bchiang7/react-profile/
-  description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
-  used:
-    - thing: JavaScript
-    - thing: React
-    - thing: CSS
+# - name: React Resume
+#   url: https://bchiang7.github.io/react-profile/
+#   code: https://github.com/bchiang7/react-profile/
+#   description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
+#   used:
+#     - thing: JavaScript
+#     - thing: React
+#     - thing: CSS
 
-- name: CourseSource
-  url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
-  code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
-  description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Node.js
-    - thing: Angular
-    - thing: Express
-    - thing: MongoDB
-
-- name: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  code: https://github.com/nuwit/website
-  description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
-  used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Bootstrap
-
-- name: Fontipsums
-  url: https://bchiang7.github.io/fontipsums
-  code: https://github.com/bchiang7/fontipsums
-  description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
-  used:
-    - thing: HTML
-    - thing: SCSS
-
-# - name: Personal Website V1
-#   url: https://bchiang7.github.io/v1
-#   code: https://github.com/bchiang7/website_2015/
-#   description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
+# - name: CourseSource
+#   url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
+#   code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
+#   description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
 #   used:
 #     - thing: HTML
 #     - thing: CSS
-#     - thing: Bootstrap
 #     - thing: JavaScript
-#     - thing: jQuery
+#     - thing: Node.js
+#     - thing: Angular
+#     - thing: Express
+#     - thing: MongoDB
 
-# - name: One Card For All
-#   url: http://onecardforall.org
-#   description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
+# - name: NU Women in Tech
+#   url: http://nuwit.ccs.neu.edu/
+#   code: https://github.com/nuwit/website
+#   description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
+#   used:
+#     - thing: Jekyll
+#     - thing: HTML
+#     - thing: CSS
+#     - thing: JavaScript
+#     - thing: Bootstrap
+
+# - name: Fontipsums
+#   url: https://bchiang7.github.io/fontipsums
+#   code: https://github.com/bchiang7/fontipsums
+#   description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
 #   used:
 #     - thing: HTML
 #     - thing: SCSS
+
+# # - name: Personal Website V1
+# #   url: https://bchiang7.github.io/v1
+# #   code: https://github.com/bchiang7/website_2015/
+# #   description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
+# #   used:
+# #     - thing: HTML
+# #     - thing: CSS
+# #     - thing: Bootstrap
+# #     - thing: JavaScript
+# #     - thing: jQuery
+
+# # - name: One Card For All
+# #   url: http://onecardforall.org
+# #   description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
+# #   used:
+# #     - thing: HTML
+# #     - thing: SCSS
+# #     - thing: JavaScript
+# #     - thing: jQuery
+
+# - name: JetBlue HumanKinda
+#   url: https://us.mullenlowe.com/work/humankinda/
+#   description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
+#   used:
+#     - thing: HTML
+#     - thing: CSS
 #     - thing: JavaScript
 #     - thing: jQuery
-
-- name: JetBlue HumanKinda
-  url: https://us.mullenlowe.com/work/humankinda/
-  description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: jQuery
